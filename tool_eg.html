@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            border:5px solid green;
+            padding: 10px;
+        }
+        span{
+            color: aqua;
+            /* border: 5px solid red; */
+            /* padding: 10px; */
+
+        }
+        .tooltip{
+            visibility: hidden;
+        }
+        .header:hover .tooltip{
+            visibility: visible;
+        }
+        .con{
+            background-color:grey;
+            display: flex;
+            position: relative;
+        }
+.sec{
+    border: 4px solid red;
+    
+    /* position: fixed; */
+    /* top:20px; */
+}
+    </style>
+</head>
+<body>
+   
+    <div class="header">
+        <span class="tooltip">
+            Fruits
+        </span>
+        Category Lorem ipsum dolor sit amet consectetur adipisicing.
+        
+    </div>
+
+    <div class="con">
+        <div class="first">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, nihil.</p>
+
+
+
+        </div>
+        <div class="sec">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, officia.</p>
+        </div>
+        <div class="third">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, debitis.</p>
+        </div>
+
+    </div>
+</body>
+</html>
